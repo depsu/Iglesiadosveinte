@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casperia</title>
+    <title>Iglesia Evangélica</title>
 
 
 
@@ -41,30 +41,46 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: #ffffff !important;">
         <div class="container">
-            <a class="navbar-brand" href="/"><img class="logo-nav" src="/imagenes/logo-nav.png"></a>
+            <a class="navbar-brand" href="/"><img class="logo-nav" src="/imagenes/logo-nav.png"
+                    style="max-width:130px"></a>
+
+       <div class="d-flex" style="gap:7px;">
+            <a href="/">
+                    <img src="/imagenes/espanol.png" width="40">
+            </a>
+            <div  onclick="frances()">
+                 <img src="/imagenes/francia.png" width="40">    
+            </div>
+            <div onclick="ingles()">
+                 <img src="/imagenes/ingles.png" width="40">
+            </div>
+       </div>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                  
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        <a class="nav-link nav1" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/nosotros">Nosotros</a>
+                        <a class="nav-link nav2" href="#nuestraayuda">Profesionales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/profesionales">Profesionales</a>
+                        <a class="nav-link nav3" href="#contacto">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/contacto">Contacto</a>
+                        <a class="nav-link nav4" href="#lideres">Líderes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/servicios">Servicios</a>
+                        <a class="nav-link nav5"   href="#preguntas">Preguntas</a>
                     </li>
                     <li class="nav-item nav--reservaTuHora">
-                        <a class="nav-link " href="/reserva">Reserva tu hora</a>
+                        <a class="nav-link nav6" href="#donaciones">Donaciones</a>
                     </li>
                 </ul>
             </div>
@@ -77,13 +93,13 @@
         </div>
     </div>
 
-    <div class="d-grid">
-        <section class="seccion-textos-bienvenida d-flex order-sm-1 order-2" style="background-color:#F8F9FD;">
+    <div class="d-grid" id="nosotros">
+        <section class="seccion-textos-bienvenida d-flex" style="background-color:#F8F9FD;">
             <div class="text__bienvenido-a-casperia container">
-                <h1 class="text-center">
+                <h1 class="text-center tituloPrincipal">
                     Misión iglesia evangélica de Jesús Cristo Efesios dos veinte internacional
                 </h1>
-                <p class="text-justify pt-5">
+                <p class="text-justify pt-5 tituloSecundario">
                     ¡Bienvenidos a la Misión Iglesia Evangélica de Jesús Cristo Efesios Dos Veinte Internacional! Somos
                     una comunidad de fe en Chile que celebra la diversidad y comparte la herencia espiritual de Haití.
                     Te invitamos a unirte a nosotros en adoración, crecimiento espiritual y servicio a la comunidad.
@@ -93,8 +109,8 @@
             </div>
         </section class="seccion-textos-bienvenida">
 
-        <section class="container especialidades">
-            <h2 class="titulo">Nuestras Especialidades</h2>
+        <section class="container especialidades" id="nuestraayuda">
+            <h2 class="titulo tNuestraAyuda">Nuestras ayuda</h2>
             <img class="centrar" src="/imagenes/subrayado.png">
 
             <!-- <div style="padding-top:3em;">
@@ -146,19 +162,19 @@
                 <div id="descripcion-especialidad">
                     <div class="row">
                         <div class="col-lg-6 col-sm-12">
-                            <img class=" centra imagen-especialidad" src="/imagenes/home/especialidad-1.jpg" alt="">
+                            <img class=" centra imagen-especialidad" src="/imagenes/home/especialidad-1.jpg" alt="Iglesia evangélica haiti">
                         </div>
                         <div class="col-lg-6 col-sm-12 informacion-especialidad">
-                            <h2>Uniendo Corazones por una Causa Noble <span style="color:#e07a1b">Causa Noble</span>
+                            <h2 class="uniendoCorazones">Uniendo Corazones por una <span style="color:#e07a1b">Causa Noble</span>
                             </h2>
-                            <p>
+                            <p class="uniendoCorazonesText">
                                 La Iglesia Evangélica de Jesucristo Internacional tiene como misión recibir donaciones
                                 destinadas a ayudar a niños en sus estudios y a personas sin hogar. Nuestra visión es
                                 ser un faro de esperanza en la comunidad, brindando oportunidades educativas a niños
                                 desfavorecidos y apoyo esencial a quienes carecen de un lugar al que llamar hogar. Su
                                 generosidad es el motor que impulsa nuestro compromiso de marcar una diferencia
                                 significativa en nombre de Jesucristo. Juntos, podemos transformar vidas y fortalecer
-                                nuestra comunidad.  
+                                nuestra comunidad.
                             </p>
 
                         </div>
@@ -167,7 +183,7 @@
                 <div id="descripcion-especialidad2" style="display:none;">
                     <div class="row">
                         <div class="col-lg-6 col-sm-12">
-                            <img class=" centrar imagen-especialidad" src="/imagenes/home/especialidad-2.jpg" alt="">
+                            <img class=" centrar imagen-especialidad" src="/imagenes/home/especialidad-2.jpg" alt="Iglesia evangélica haiti">
                         </div>
                         <div class="col-lg-6 col-sm-12 informacion-especialidad">
                             <h2>Terapia <span style="color:#08ACE3">Ocupacional</span></h2>
@@ -189,7 +205,7 @@
                 <div id="descripcion-especialidad3" style="display: none;">
                     <div class="row">
                         <div class="col-lg-6 col-sm-12">
-                            <img class="centrar imagen-especialidad" src="/imagenes/home/especialidad-3.jpg" alt="">
+                            <img class="centrar imagen-especialidad" src="/imagenes/home/especialidad-3.jpg" alt="Iglesia evangélica haiti">
                         </div>
                         <div class="col-lg-6 col-sm-12 informacion-especialidad">
                             <h2>Terapia <span style="color:#00AFAA">Fonoaudiológica</span></h2>
@@ -211,33 +227,33 @@
 
     <!--Formulario de contacto-->
     <a name="contacto"></a>
-    <section class="formulario">
-        <form action="contactocentrocasperia@gmail.com" method="POST" class="container-form">
-            <h2 class="titulo">Contáctate con Nosotros</h2>
+    <section class="formulario" id="contacto">
+        <form action="saintionord@gmail.com" method="POST" class="container-form">
+            <h2 class="titulo conectateConNosotros">Contáctate con Nosotros</h2>
             <img class="centrar" src="/imagenes/subrayado.png" style="padding-bottom:1em;">
 
             <form action="#" class="form-contact" method="post" tabindex="1">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <label for="">Nombre</label>
+                            <label for="" class="tnombre">Nombre</label>
                             <input type="text" class="form-contact-input" name="Nombre"
                                 placeholder="Ej: Nombre Apellido" required />
                         </div>
 
-                        <div class="col-12 col-lg-6">
+                        <!-- <div class="col-12 col-lg-6">
                             <label for="">Teléfono</label>
                             <input type="tel" class="form-contact-input" name="Teléfono"
                                 placeholder="Ej: +56 900000000" />
-                        </div>
+                        </div> -->
 
                         <div class="col-12 col-lg-6">
-                            <label for="">Correo</label>
+                            <label for="" class="tcorreo">Correo</label>
                             <input type="email" class="form-contact-input" name="Correo"
                                 placeholder="Ej: correo@mail.com" required />
                         </div>
 
-                        <div class="col-12 col-lg-6">
+                        <!-- <div class="col-12 col-lg-6">
                             <label for="">Especialista</label>
 
                             <select class="form-select" id="form-motivo" name="form-motivo">
@@ -246,14 +262,14 @@
                                 <option value="Terapia-Ocupacional">Terapia Ocupacional</option>
                                 <option value="Psicología">Psicología</option>
                             </select>
-                        </div>
+                        </div> -->
                         <div class="col-12">
-                            <label for="">Comentario</label>
+                            <label for="" class="tcomentario">Comentario</label>
                             <textarea class="form-contact-textarea" name="Comentario" placeholder="Escribe tu mensaje"
                                 required></textarea>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="buttom-primary">Enviar</button>
+                            <button type="submit" class="buttom-primary tenviar">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -263,27 +279,25 @@
 
     <!--Nuestros especialistas-->
 
-    <section class="especialistas container">
-        <h2 class="titulo">Nuestros Especialistas</h2>
+    <section class="especialistas container" id="lideres">
+        <h2 class="titulo tLideres">Nuestros Líderes</h2>
         <img class="centrar" src="/imagenes/subrayado.png">
-        <p class="subtitulo">Nuestros profesionales están comprometidos a realizar su trabajo con la mayor competencia
+        <p class="subtitulo textLideres">Nuestros profesionales están comprometidos a realizar su trabajo con la mayor competencia
             profesional y humana. </p>
         <div class="splide splide-especialistas">
             <div class="splide__track">
                 <ul class="splide__list">
 
                     <li class="splide__slide">
-                        <a href="/profesional-1">
+                        <a>
                             <div class="contenedor-card-especialista">
-                                <div class="ola">
-                                    <img src="/imagenes/home/ola-nuestros-especialistas.png" alt="ola">
-                                </div>
+
                                 <div class="ola-texto">
                                     <p class="nombre-apellido-texto ">
-                                        <b>Valerie García Ahumada</b>
+                                        <b>Líder</b>
                                     </p>
                                     <p class="especialidad-texto">
-                                        Fonoaudióloga </p>
+                                        Jacob Exantus </p>
                                 </div>
                                 <img src="/imagenes/profesional/Profesional/1.png">
                             </div>
@@ -292,13 +306,13 @@
 
 
                     <li class="splide__slide">
-                        <a href="/profesional-4">
+                        <a>
                             <div class="ola-texto">
                                 <p class="nombre-apellido-texto">
-                                    <b>Robinson Roa</b>
+                                    <b>Fundador</b>
                                 </p>
                                 <p class="especialidad-texto">
-                                    Psicólogo</p>
+                                    Saintinord Saint</p>
                             </div>
                             <div class="contenedor-card-especialista">
                                 <img src="/imagenes/profesional/Profesional/2.png">
@@ -308,13 +322,13 @@
 
 
                     <li class="splide__slide">
-                        <a href="/profesional-2">
+                        <a>
                             <div class="ola-texto">
                                 <p class="nombre-apellido-texto">
-                                    <b>Deborah López</b>
+                                    <b>Secretaria</b>
                                 </p>
                                 <p class="especialidad-texto">
-                                    Fonoaudióloga</p>
+                                    Fanie Amise Cadet</p>
                             </div>
                             <div class="contenedor-card-especialista">
                                 <img src="/imagenes/profesional/Profesional/3.png">
@@ -324,13 +338,13 @@
 
 
                     <li class="splide__slide">
-                        <a href="/profesional-3">
+                        <a>
                             <div class="ola-texto">
                                 <p class="nombre-apellido-texto">
-                                    <b>Solange Cruz</b>
+                                    <b>Vice-coordinadora</b>
                                 </p>
                                 <p class="especialidad-texto">
-                                    Terapeuta Ocupacional</p>
+                                    Miciana Ducasse</p>
                             </div>
                             <div class="contenedor-card-especialista">
                                 <img src="/imagenes/profesional/Profesional/4.png">
@@ -340,13 +354,13 @@
 
 
                     <li class="splide__slide">
-                        <a href="/profesional-5">
+                        <a>
                             <div class="ola-texto">
                                 <p class="nombre-apellido-texto">
-                                    <b>Camila Silva</b>
+                                    <b>Vice-secretaria</b>
                                 </p>
                                 <p class="especialidad-texto">
-                                    Terapeuta Ocupacional</p>
+                                    Manette Valmont</p>
                             </div>
                             <div class="contenedor-card-especialista">
                                 <img src="/imagenes/profesional/Profesional/5.png">
@@ -356,13 +370,13 @@
 
 
                     <li class="splide__slide">
-                        <a href="/profesional-6">
+                        <a>
                             <div class="ola-texto">
                                 <p class="nombre-apellido-texto">
-                                    <b>Alejandro Caneppa</b>
+                                    <b>Tesorero</b>
                                 </p>
                                 <p class="especialidad-texto">
-                                    Psicólogo</p>
+                                    Remy Elius</p>
                             </div>
                             <div class="contenedor-card-especialista">
                                 <img src="/imagenes/profesional/Profesional/6.png">
@@ -371,13 +385,13 @@
                     </li>
 
                     <li class="splide__slide">
-                        <a href="/profesional-7">
+                        <a>
                             <div class="ola-texto">
                                 <p class="nombre-apellido-texto">
-                                    <b>Camila García Ahumada</b>
+                                    <b>Vice-tesorero</b>
                                 </p>
                                 <p class="especialidad-texto">
-                                    Fonoaudióloga</p>
+                                    Rosalie Elcius</p>
                             </div>
                             <div class="contenedor-card-especialista">
                                 <img src="/imagenes/profesional/Profesional/7.png">
@@ -386,18 +400,33 @@
                     </li>
 
                     <li class="splide__slide">
-                        <a href="/profesional-8">
+                        <a>
                             <div class="ola-texto">
                                 <p class="nombre-apellido-texto">
-                                    <b>Javiera Fernández</b>
+                                    <b>Coordinador</b>
                                 </p>
                                 <p class="especialidad-texto">
-                                    Fonoaudióloga</p>
+                                    Diácono Israil Louis</p>
                             </div>
                             <div class="contenedor-card-especialista">
                                 <img src="/imagenes/profesional/Profesional/8.png">
                             </div>
                         </a>
+                    </li>
+
+                    <li class="splide__slide">
+                        <div>
+                            <div class="ola-texto">
+                                <p class="nombre-apellido-texto">
+                                    <b>Miembro Fundador</b>
+                                </p>
+                                <p class="especialidad-texto">
+                                    Pastor Monfort mergéne</p>
+                            </div>
+                            <div class="contenedor-card-especialista">
+                                <img src="/imagenes/profesional/Profesional/9.png">
+                            </div>
+                        </div>
                     </li>
 
                 </ul>
@@ -406,7 +435,7 @@
     </section>
 
     <!--Instagram-->
-    <section class="instagram container">
+    <!-- <section class="instagram container">
         <h2 class="titulo">Galería de imágenes</h2>
         <img class="centrar" src="/imagenes/subrayado.png" style="padding-bottom:2em;">
         <div class="row gx-3 gy-3 justify-content-center">
@@ -423,7 +452,6 @@
                 <a> <img src="/imagenes/home/galeria/3.png" alt="imagen-casperia"></a>
             </div>
 
-            <!--otras 3 -->
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <a> <img src="/imagenes/home/galeria/4.png" alt="imagen-casperia"></a>
             </div>
@@ -435,21 +463,10 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <a> <img src="/imagenes/home/galeria/6.png" alt="imagen-casperia"></a>
             </div>
-            <!--otras 3 -->
-            <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-                <a> <img src="/imagenes/home/instagram-ejemplo.png" alt=""></a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <a> <img src="/imagenes/home/instagram-ejemplo.png" alt=""></a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <a> <img src="/imagenes/home/instagram-ejemplo.png" alt=""></a>
-            </div> -->
+         
 
         </div>
-    </section>
+    </section> -->
 
     <!--planes de atencion
     <section class="planes-de-atencion container">-->
@@ -457,7 +474,7 @@
 
     <!--Preguntas frecuentes-->
 
-    <section class="preguntas-frecuentes container">
+    <section class="preguntas-frecuentes container" id="preguntas">
         <h2 class="titulo">Preguntas frecuentes</h2>
         <img class="centrar" src="/imagenes/subrayado.png">
 
@@ -471,10 +488,8 @@
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Nuestro centro está conformado por un equipo multidisciplinario con
-                        profesionales que se encuentran en constante formación y especialización para brindar los apoyos
-                        necesarios que fomenten, promuevan y permitan mejorar la calidad de vida de cada usuario/a y sus
-                        familias, de manera integral.
+                    <div class="accordion-body">Somos una comunidad de fe en Chile que celebra la diversidad y comparte la
+                        herencia espiritual de Haití.
                     </div>
                 </div>
             </div>
@@ -488,12 +503,9 @@
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body"> Nuestra misión es contribuir a mejorar la calidad de vida de los
-                        niños/as, adolescentes, adultos y sus familias, implementando modelos terapéuticos basados en
-                        evidencia, seleccionados en base a las necesidades de cada usuario/a.
+                        niños/as, adolescentes, adultos y sus familias
                         <br>
-                        Desde Centro Casperia queremos infundir confianza y brindar apoyo a todas las familias, no sólo
-                        buscando la excelencia en la calidad de los servicios que entregamos, sino que también brindar
-                        un servicio específico, individualizado y completo a cada usuario/a y a su núcleo familiar.
+                        Queremos infundir confianza y brindar apoyo a todas las familias
                     </div>
                 </div>
             </div>
@@ -506,8 +518,26 @@
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Nos encontramos en Edificio contemporáneo, calle Limache 1724, oficina
-                        510, Viña del Mar.
+                    <div class="accordion-body">En whatsapp +56 9 7562 2619 o formulario de contacto a traves de correos electrónico saintionord@gmail.com, las ubicaciones de nuestras iglesias son las siguientes: Dirección Chile, La sisterna: Callle jose ureta 408
+                        <br>Dirección Haití, Gonaives ruelle fleurensai
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree3" aria-expanded="false" aria-controls="flush-collapseThree3">
+                        ¿Como podemos donar?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree3"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">A traves de tranferencias bancarias a la siguiente cuenta: <br>
+                        Banco Falabella <br>
+                        Cuenta Corriente <br>
+                        Rut 25.224.472-7 <br>
+                        Numero de cuenta: 15270107061
                     </div>
                 </div>
             </div>
@@ -517,58 +547,59 @@
 
     <!--Footer-->
     <footer>
-        <div class="redes-sociales">
+        <!-- <div class="redes-sociales">
             <div class="contenedor-imagenes">
-                <!-- <div>
-                    <a href=""><img src="/imagenes/footer-facebook.png" alt="facebook"></a>
-                </div> -->
                 <div>
-                    <a href="https://www.instagram.com/centrocasperia/"><img src="/imagenes/footer-instagram.png"
+                    <a href=""><img src="/imagenes/footer-facebook.png" alt="facebook"></a>
+                </div>
+                <div>
+                    <a href=""><img src="/imagenes/footer-instagram.png"
                             alt="instagram"></a>
                 </div>
             </div>
-        </div>
-        <div class="informacion">
+        </div> -->
+        <div class="informacion" style="background-color: #ffffff;">
             <div class="imagen-y-horario container">
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-8 col-sm-12 imagen-informacion">
+                <div class="row d-flex align-items-center" id="donaciones">
+                    <div class="text-center col-lg-8 col-12 imagen-informacion">
                         <div class="contendor-imagen-informacion">
                             <img class="mw-100" src="/imagenes/footer-logo.png" alt="logo">
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 horario ">
 
-                        <p class="contenedor-texto-llamada">
+                        <p class="contenedor-texto-llamada" style="color:rgb(70, 63, 63) !important;">
                             <span style="display: inline-block;
                             font-weight: 700;
-                            padding-bottom: 7px;">
-                                Horario de Atención
+                            padding-bottom: 7px; color:rgb(70, 63, 63);">
+                               Donaciones
                             </span><br>
-                            Lunes a Viernes: 9:00 a 20:00 hrs. <br>
-                            sábado: 9:00 a 18:00 hrs.<br>
-                            Domingo: cerrado
+                            Banco Falabella <br>
+                            Cuenta Corriente <br>
+                            Rut 25.224.472-7 <br>
+                            Numero de cuenta: 15270107061
                         </p>
 
                         <div class="contenedor-telefono">
                             <img src="/imagenes/footer-llamada.png" alt="llamada">
-                            <span class="telefono">
-                                (+569) 5413 5585<br>
+                            <span class="telefono" style="color: rgb(70, 63, 63);">
+                                +56975622619<br>
                             </span>
                         </div>
-                        <img src="/imagenes/footer-ubicacion.png" alt="llamada">
-                        <a href="https://goo.gl/maps/mWu8YdsVVKAzAYfe9">
-                            <span class="telefono">Limache 1724, Oficina 510. Viña del Mar</span>
+            
+                        <a>
+                            <span class="telefono"  style="color:rgb(70, 63, 63) !important;">Dirección Chile, La sisterna: Callle jose ureta 408 <br> Gonaïves Haïti Ruelle Fleurissent impasse Estimé numéro 09 zone troussable</span>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="container derechos-reservados">
+            <!-- <div class="container derechos-reservados">
                 <h6 class="m-0 p-1">Copyright © 2022 <b>Minerva</b>.</h6>
-            </div>
+            </div> -->
         </div>
     </footer>
     <!--Botón whatsapp-->
-    <a href="https://api.whatsapp.com/send?phone=56954135585" class="whatsapp" target="_blank"> <i
+    <a href="https://api.whatsapp.com/send?phone=56975622619" class="whatsapp" target="_blank"> <i
             class="fab fa-whatsapp whatsapp-icon"></i></a>
 
 

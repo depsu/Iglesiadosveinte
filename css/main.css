@@ -241,6 +241,7 @@ section {
 .nav--reservaTuHora {
     background: #e07a1b;
     border-radius: 4px;
+    display: block !important;
 }
 
 
