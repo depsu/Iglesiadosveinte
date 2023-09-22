@@ -129,6 +129,10 @@
     .informacion-especialidad{
         order: -1;
     }
+
+    .tituloPrincipal{
+        font-size: 28px !important;
+    }
 }
 
 /*4 Formulario*/
