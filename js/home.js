@@ -25,6 +25,28 @@ function frances() {
    document.querySelector(".textLideres").innerHTML = "Nos dirigeants Nos professionnels s’engagent à réaliser leur travail avec la plus grande compétence professionnelle et humaine.";
 
 
+   document.querySelector(".preguntaFrecuentes").innerHTML = "Questions fréquentes";
+
+   document.querySelector(".quienesSomos").innerHTML = "Qui sommes nous?";
+   
+   document.querySelector(".somosUnaComunidad").innerHTML = "Nous sommes une communauté de foi au Chili qui célèbre la diversité et partage l'héritage spirituel d'Haïti.";
+
+   document.querySelector(".cualMision").innerHTML = "Quelle est notre mission?";
+
+
+   
+   document.querySelector(".nuestraMision").innerHTML = "Our mission is to contribute to improving the quality of life of children, adolescents, adults and their families. We want to instill confidence and provide support to all families";
+   
+   document.querySelector(".dondeEstamos").innerHTML = "Où est-ce que nous nous sommes rencontrés?";
+   
+   document.querySelector(".enWhatsapp").innerHTML = "Sur WhatsApp +56 9 7562 2619 ou formulaire de contact par email saintionord@gmail.com, les localisations de nos églises sont les suivantes : Adresse Chili, La sisterna : Calle jose ureta 408 / Adresse Haïti, Gonaïves ruelle fleurensai";
+
+
+   document.querySelector(".comoDonamos").innerHTML = "Comment pouvons-nous faire un don ?";
+   document.querySelector(".tAtraves").innerHTML = "Par virements bancaires sur le compte suivant : / Banco Falabella / Compte courant / Rut 25.224.472-7 / Numéro de compte : 15270107061";
+
+
+   document.querySelector(".donacionesText").innerHTML = "des dons";
 
 
 }
@@ -55,7 +77,28 @@ function ingles() {
     document.querySelector(".tLideres").innerHTML = "Our Leaders";
     document.querySelector(".textLideres").innerHTML = "Our professionals are committed to carrying out their work with the greatest professional and human competence.";
 
+    document.querySelector(".preguntaFrecuentes").innerHTML = "Frequent questions";
+
+    document.querySelector(".quienesSomos").innerHTML = "About us?";
+
+    document.querySelector(".somosUnaComunidad").innerHTML = "We are a community of faith in Chile that celebrates diversity and shares the spiritual heritage of Haiti.";
+
+    document.querySelector(".cualMision").innerHTML = "What is our mission?";
+
     
+    document.querySelector(".nuestraMision").innerHTML = "Our mission is to contribute to improving the quality of life of children, adolescents, adults and their families. We want to instill confidence and provide support to all families";
+    
+    document.querySelector(".dondeEstamos").innerHTML = "Where do we meet?";
+    
+    document.querySelector(".enWhatsapp").innerHTML = "On WhatsApp +56 9 7562 2619 or contact form via email saintionord@gmail.com, the locations of our churches are as follows: Address Chile, La sisterna: Calle jose ureta 408 / Address Haiti, Gonaives ruelle fleurensai";
+
+    document.querySelector(".comoDonamos").innerHTML = "How can we donate?";
+    document.querySelector(".tAtraves").innerHTML = "Through bank transfers to the following account: / Banco Falabella / Current Account / Rut 25.224.472-7 / Account number: 15270107061";
+
+
+    document.querySelector(".donacionesText").innerHTML = "donations";
+ 
+
 }
  
 
