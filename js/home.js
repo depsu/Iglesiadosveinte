@@ -55,6 +55,7 @@ function ingles() {
     document.querySelector(".tLideres").innerHTML = "Our Leaders";
     document.querySelector(".textLideres").innerHTML = "Our professionals are committed to carrying out their work with the greatest professional and human competence.";
 
+    
 }
  
 
